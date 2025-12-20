@@ -1,0 +1,13 @@
+{
+  "id": "easterleigh",
+  "title": "Barony of Easterleigh",
+  "parent": "mistbriar",
+  "bounds": [[0, 0], [797, 797]],
+  "base": { "image": "https://lh3.googleusercontent.com/rd-d/ALs6j_FkviGyZm4d-KUR3VE8LwF4CsySEG95utkY6lOQNfXMKLb5kcAadgzeBDps45ry-A8vTgAtEm5UXk_92kfouGSeMgiQVqMCqiU_4B3U00RL4mFXU8e-3eVf0LndKg8tYwOGzco0O2uzezac9INkVqgXS0POG5OL9FwuekzLYqoaG6w1Sk7-103ycoMg_WAoYjBDpcZyBBgD5EnhZDYMn_kc2PLjBv7Yyaj4av7F1v8YmA8k7XlthBTfHVOsNFTh3zcBfBuB4hiklKIFhYB2n4x5YxlXhDkZoAAwBjth9B4O9fgzAAPyiBY3Na4NeJBO25ZXA7Xf6nSsJr__F9KRkMhNLGNi3cdIJ0pjoN_GuF0bGCAbHmfsg8rJ2Q7m0JcwFGV0AIAtTldu4TRni-a2Fav2yBNFEXgBuhMjsthYECH92r1ia4u6C1f3kQxJZn2CPBfXTwYfA0_a6mVglA2vmu4vChjffXfLMcbYYFgBdXAZDzw4OiLBg8QI-SJ9nYzreIZ2NKpoBfzbbnJCdHG4ISvJTKbs5ztFyFRxgWq0swYFV-UZZ6vSOUHuf3ZtieQy9qTYFh1XLTZ2nl5AB1IkHYjSZ8vrbjWB262RXILGLxohNEZHNkKiMsic3Dt0OcbCMPj1jGm0fMCwSKRbikAMYb9bK6BOwj4M5yk5dP9WKYLHjPQcVf10Qi8TjezU4Y6iX9mccYHCb_8tXZXgcI02OxLO_pwoYougH2apgO-4g0wlYXWpPQsLs_0qIeX1lumvpMj541XT7fGiu4UVdQocVbXm3gwORea5fLgzIB4NE7x1u66srbnBi-_5TpTN-5IUcbz6UP7rafRhQapiRliHBBYenqyIJz-K5C8Z0EmjPCHJTobgLxMjeDbg_0r0AvAjdBXR1aSJna3HmmobrnZz48uM3eGjmrIA2yfY9HgALMxx6yDIpEUsBCkVwxLQFq8xM_NMktkqgGmA3gXHro9v8gzcDjXcEKwxoyjoenrg3F6-qTLGjPwBL3KClB_rGOIXZNCx0O95ZGTC=w1963-h1121?auditContext=prefetch" },
+  "overlays": [
+  ],
+  "pins": [
+   ],
+  "regions": [
+  ]
+}

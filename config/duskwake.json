@@ -1,0 +1,15 @@
+{
+  "id": "duskwake",
+  "title": "County Duskwake",
+  "parent": "gilneas",
+  "bounds": [[0, 0], [797, 1063]],
+  "base": { "image": "https://lh3.googleusercontent.com/rd-d/ALs6j_GPnB40eiAJ_1hifvkf9ubjTHoi_IL5-5dIJzqJKTaaSuNcpUmzwtGAmv9GqIMQlFNF4ZBk1BF1pnbO6BaaOab1lBXTtLRy4Z5jJGE7FTzx5qF0aPUp-XEQ3MLBd0rcqY_rqawMKKnq6IdAOvnw_OwMknR6XXz-tXDYhCKrt-m17YQ_ZEnL2yYpVlPwzMdxixjs_rxJf3XaOJPCV37UcBFgGIn1a6U1vrOo9zwmbGKF1TTV6PwjpDT5PgUKS63JZAif4KjcDSkdFZVLGiRmqfHr7BsAt655NmUvyL2msWgK8p4fMWNdoSJ6XFQHrS1g2o79LPcpDxZlXwPHPnSwoSG4u4ff1T2YMZrPMYTLg6T8JZIhQ3K1nshKISIQQdDueZIK6di41qXmS5pFFo-colExp_s9gShMsQojhmytaGGBRJ3eN-uIOdAuGIroRVijcVxNDjKibGYRfwyDN6AIc3dfKL7oHYInbxMuo4ynSEktZPs3N0vNx702UCJ6XNkrqp7XxO9eWGKk7p4tQxuF-Djq1uY1FKL7FC_U39XjcguRGXe-bsFgmjK8l9JhEys8cteY0OyKb1Qg5k2K55btZDdUiLcEbN9CtOnmKW9yVBneiSOLp8pgjLRMT9ceLoUTQHRh-a53ijuwwA2URIGZRlxLL3BUX3ifrtqflEv_JfZcHp1UsXDlmYxWJiGmFah7yy2BG7Xxd6_s4Qra1J7SRK_pRN2AAN0Yuv9FcUjlaRv8cZSY-nAsRIPBJEaqZsPf5TlRQGDqNbASOevqo7XIlyMyJ99BbetzNzfvjZ0iBgmkgpzJIcsETlTsdfUmGujW8Rlg30Z9ZJ9p21I9_riEdqeCfpIWz5EcPgs5PnkMqSk857_HMc3AQnj_hHHwpEiZhQ3RWhOjLi0BW9hWLFEhVHSAvr_GPA34pZ6sbCRTX-qYLwalZJ6CoL6hf7i_AnbD_cKd0elQ2EuKRb_EolilG5QqJq38LlW2sbJ0Fa8Ev5KM-sc1jminJLXz6H_Qqm-8icxFAndW4Jg=w2560-h1320?auditContext=prefetch" },
+  "overlays": [
+  ],
+  "pins": [
+    
+  ],
+  "regions": [
+    
+  ]
+}

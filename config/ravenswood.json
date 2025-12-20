@@ -1,0 +1,15 @@
+{
+  "id": "ravenswood",
+  "title": "County of Ravenswood",
+  "parent": "caerseren",
+  "bounds": [[0, 0], [613, 750]],
+  "base": { "image": "https://lh3.googleusercontent.com/rd-d/ALs6j_FOeSsyRqDoe1pxbT9oioYll93aSsl3FpUTPRuXN5kvq2qvW9HZahLLGmhlFijEtnFooGc1l0uZNK9JJCO7tz47C9pvDjEe454LfA_KPK6E4VKrO8swH2YUCfDFRMaC5BbQuBtveoaXE330Jic6V3BAaRRxkwcmRl-mX4LibnI29QMJdw3PT_vOxY9UyHBdEoaeHkClLB3SDKDlhdzinMlSx-gNKTE1dJmmzHNBJbbjVLYljfOCkBKe07dImH9cPG5E7WnhKLh3J4jMDdfC7RLkfSxxFJ6-BZe_WOLN6wVLjzhuInqYGxqDnny0u8w9-TVBYkJwAA3pf1aWXKDSGmDvWnh2eajW_YCJTZ4yxAGmbGzzLm89-KvyaY8z-d803KzLpyNdb9_qiPXoTBKh7CnDC9ORXUFzYtu9enissso1psQiIFhy1nlpekY47ziyB0RHG0KmFuJ1aQBXNHUi565MtH2oFYtfcpyGwPoTgEDciw38O0qzlVQ0X0DumMDmTHSmxapXsY0HhVaqbs0rB2op_2vbAqj-nBWCLxt34ZBFQ41otJHNk872Si8iPveVCpjRedfVq9KR3_I0FCSr4WCQYZTI1qCPPy__kdEbuzoyIJf7ICcEyLkt96zXhguq0d5hto-NwZ3Gami-ZaW-obt7O3Rzjt4YINzwuXrS7t-tHgSlOuG_D_tU6cNMeKPm3qvcqfRkhh4hOADnUbpAt7j2uZRb9Hws5Vg0YoYlXuq6yQsHDfI8S_YySSNV_cFDYhyJnrwRx78_y9W3ybcbkebSwdxUZExYMK6Z1MZb_tD-TK2adE0wDP7EjPxaVAEygg2EDPdak9SW5A6XXOIXe45q2aalEaf9uDIppGDDV6rkWpvwNSr0-LqOm9Sj8UO0gqwizssq-RAeBxBY9_WW0jqU--BI82zEBUbIzm2IM9fNd7jkWgZzYi6gXBIs0fVN79Q7OoEhN4Pn0ZZintO6C5-_x3_gKGNm_pEpks59YcmvtyEaM5OwGaBhs0yUcPJ9_Z_YKG7IT-GO=w2560-h1346?auditContext=prefetch" },
+  "overlays": [
+  ],
+  "pins": [
+    { "id": "mauxwood", "pos": [253.13,241.11], "emoji": "🚩", "action": { "type": "goto", "target": "mauxwood" } }
+   ],
+  "regions": [
+    { "id": "ravenswood", "shape": "poly", "coords": [[898.5,304.43],[898,487.39],[893,489.89],[886,494.39],[875.5,499.89],[861.5,499.39],[862,491.39],[855,491.39],[845.5,490.39],[837.5,486.39],[836,469.9],[828,470.4],[821.5,471.4],[816.5,462.9],[826,448.9],[819.5,443.9],[806.5,454.4],[804.5,450.4],[810.5,433.4],[811.5,430.4],[812,420.91],[808,420.91],[799.5,432.4],[796.5,428.9],[801,414.91],[793,409.41],[787.5,403.91],[793,398.41],[784.5,390.91],[785,382.91],[771,372.92],[773.5,361.92],[768,349.92],[771,339.42],[772,328.42],[780,318.43],[783,303.93],[799,290.93],[817,295.93],[823,288.43],[834,295.93],[843.5,288.93],[854,293.93],[859,303.93],[873,292.43],[882.5,297.43],[891,292.93]], "label": "County of Ravenwood", "action": { "type": "goto", "target": "ravenwood" } }
+  ]
+}

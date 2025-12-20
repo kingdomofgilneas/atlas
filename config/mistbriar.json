@@ -1,0 +1,16 @@
+{
+  "id": "mistbriar",
+  "title": "County of Mistbriar",
+  "parent": "redfield",
+  "bounds": [[0, 0], [693, 715]],
+  "base": { "image": "https://lh3.googleusercontent.com/rd-d/ALs6j_HKAB_ngCV1F-QOicCer5Ezc7BV_SMNc1jlYZKGFEb7d19jaNIJAdIDO5JWJOsNmQO-NDPEc28VQYnBSXwGja6dyWN3hkd0WGBeIzuZ1XMKOqzWTxRSpPYAOpClIRc2D1pYmBPQ8dGEdU2KXAz5afnvpb73vaOHIyZeRhHdi-f9H-jeWnjQsg3rBIKMpwJmDsDoVS2Yi7YPHYC5NJF8tDN7H_1D5QtToXqMwt5Z-xNfmJA15Z77ZYYr4XmSHsTkQrnlqbOQjVdS3tj3Ud0QVOm60G_PagyxFWmMGejRvAJ_IXAP0DvpDa-Jz8co-x1MJW3n2GVinslEIPQjpaxJl9fNtqQK8YOIe95XjEpi-mOx8GkQA5uSMLVPE-be_W9IIY5pCZlTbbI1zuIQPqBRAqs7JwfeVikhGsVwwefQPgSx7A4sVAPhSfAVdVpMuu0QzpZe-wNmVJjKmJ7oh_MoYMcMDLGZ6HvxG2-nE5XOYOU8AG2rB67wGm5RIExUMH-w6Gm7CWa0WvuYwOLh1fDUmbySnglZnjxlGV0b34lJ-ansCkJ0TIOC2pNSLK5DPYxHGMNzUnzbGKk24_IpVv0pZrDvUkYGx1DBMJdrq3tEMgJYNVAcF9ornIk9D072ZI4S5o7c-yUb7-tBNn_qbWmDTvuxq83-MNEJmBhLBsXURs5-TK1ZTbJ2A5P4jilRQL7PBSRb5RF4pZi-szZT5pfBLoOURjVx9Fwj3ybLWnKxrWSc1uBx68jZRbEQxLmV74dKION0VuneRGeqRplqPS_HhhL5V5zb3cL7nKm8fMmVFT-d7h2fgxCEODgb0rhRw6oKodgDoSr6EgoZ3iLEYluHR6QDO-d5QSfAGIjXNBALHcNhMGMl9fxk-3_UgpWJVAx0se4Wz1TH5SQUgZZWJihsFCPgiC7F8DvGggEAIjNmVBwiTbXQYMqdsvfhoO_j4GdRGg9tZFBSA2LCbmrmweY2jyEMPDSEp6OkAniFucV_-gtD2hEEY58Y2aJuaje_J9u-6f84In6vhDYb=w2560-h1346?auditContext=prefetch" },
+  "overlays": [
+  ],
+  "pins": [
+    { "id": "easterleigh", "pos": [480.99,483.93], "emoji": "🚩", "action": { "type": "goto", "target": "easterleigh" } }
+
+   ],
+  "regions": [
+    
+  ]
+}

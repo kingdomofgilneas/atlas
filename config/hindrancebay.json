@@ -1,0 +1,10 @@
+{
+  "id": "hindrancebay",
+  "title": "Earldom of Hindrance Bay",
+  "parent": "arevass",
+  "bounds": [[0, 0], [1065, 2048]],
+  "base": { "image": "https://lh3.googleusercontent.com/rd-d/ALs6j_GWkH8d1o5i_jCc0kGqOB_gGNjJc7PdsXgg02uwdxh3W8m9wMhB7Zhw6OVrh6n_PHlsM20W0yC3BJr1-l0vYV58wP7fr6Z_CKklfMztqtM4Cq5q_Rngtdm7xEY8CEKVYtA1B9PyEylPjm89IBGAvPIBoc7T7vBgwPfllztMhyyjaoyswcHH-jm1gPSRcoo_6rVy7c5HV47v8G_z0MVZQBHFe-WguwDXEVfhpzcvkpD9LcYIei8TVdzk4gLyLgOFM8OLWrFgXP66isrglwGrGStnqePZxgRXoSYcETRgh6YlgN_FGVUtrfLvDg91jUhh4tqYu51pXRwwwVFlhs8g_apfwzfvs_-nvxyviAEVP9nObtQ0gzzRej6xpy4spbkxd08cQEVPxdZf1ejEYw5T3pizobH-haZrtj1lYw34lev49uKv1PweatVAced0Y9qP7sgI5xsNq5iwZJoZNdYInxDaleLFBuiU_qcGd15ytvTH7vHixSN5_U0CAE76ggGuQgRFOBj-qrv65PPYEbPCOfGjEMTU3lakeAVPp80XOF_lR55T40lEzHHufih0vy4T6qRnP4-J1BdO1a-1qu_TLU1grg8_0UNExQwO7wLZ0qLJDFYoJaKxu-iKO5XNiLdCywJqAcpsaa9XY9ghmhRkNYkvh28saYLGa9HwpHyLuLnR70MrtISpj1DczAfQJQ89JF9lw2ILNZhqGNrL35ljMPzcL85ggHydbplfduMSOC0acl08Hx5buhm8-9NHW-VZbiT19C4O_yqlmQVZQcTM1NR9duJmDZf8tmZ7p6zWJDARmgM7Feqzv0IUXcMc8G8xnCWe_C9alDvNvGI-jPnp2a42gQ2HtAtIUO9iJDazLuP9zAc7XH97rAV89SjthWbpDlN22dwRjQNGJJDx_mq8Uubdmk7C2Lh6p8Y3jkyAN-uigDwwCgH1Mvep2xtFy-rnyUisXtWx-kBqi1cJndNlPQxLnuZglVrI3lqPlPOj3G1ZR1xWa474pQHFpAfOiHxle-wkDKOPUyM=w2308-h1271?auditContext=forDisplay" },
+  "overlays": [],
+  "pins": [],
+  "regions": []
+}

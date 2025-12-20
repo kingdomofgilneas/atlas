@@ -1,0 +1,10 @@
+{
+  "id": "bentonshire",
+  "title": "County of Bentonshire",
+  "parent": "howlingisles",
+  "bounds": [[0, 0], [693, 1341]],
+  "base": { "image": "https://lh3.googleusercontent.com/rd-d/ALs6j_HDb7gUS2JTjiC5gGdQ91pwg3GzpJ5vDLk6h-svYb_M3AVm3O0xJOvVum4IAQctJFxAqedihjYr8I2Cv472DK4isxdXX3Lpd5TL0yesQ7-bP9YOoOD5hErw1Bg5vx3BbeQp-JbXcxEH9D9egxszND49ZYEQ7nuh5pNAfhEted_FFzHojXXM1znLndcWdqZiUMC6PnMtbZBWA5Kyy9gOwTvRVvZv6nt9JX4xyIj-gX5_yApRrbL1Q_Gcso3HEXIdR183s4Km4VoXMrCTCVgh1qMdYxXliKV8i8DrmQWYUBEuaF3UoWFhXjL7QhZETPRrb35GS_rYi8rC_m2d0ejRj2RYYswB1iIpthBAe6b2pP076odKz4-F_f9NTnbCalSOWx2mxuwh2lrXv82PIv14DNJ6L5lLh_8hF5-I9ZWbnfn7g3XFnI15TwHt6u4_1MXyxhc0GPYRJibnRVrQa_fplx21DSKgSymSLwlLTIIyNiTPxKOYasCFWzuiNvxIvGf9ks6RmlKZ-RWrYtSk9KATRSU1f7KNLmIH7BsS46TKswb0KBLuHQqvpvlaW9jv_zPjRZNBaVBZMtZW5R4QGjjnjDfLjc3cHzXEpDirSX1fnV3yn1y0zLnoV_Nrb3xfvK5YOqpKsPSqVwPFE6_gHqrl7a-dfXRffECjqinC4_881H30VEOI5VFbQWv8hBSWLpogOaBw6o9UkORJPRVC52f82K5pUJl3fUMxoczAzc27aWZ16ezjY2x3XkhdclJmekwzGEr8bAOos2vjumD3GDavLfkPGopNczVoSx_bIIVKcv0YCBWa34M7KC3EjSBp2JeS7WTVE5x0FmEOPsk1hecNW9Lo4yrAvyIgNmJFdQsb2wf099WVweEBUwH8stsXjsPe4txnzVJvQoxW4YH1G2R1dcpAGX9cfnXK_lry0_qW0mKHLgsMGfZhOnnk1VIiOWxfOEacMjqp7O7xgLS8qqsmuGwfgcviofOEQJ-t1bQ72HC3GmGVFIfKPz0NYZN_c6B9wmTKSbkRdk5i=w2560-h1320?auditContext=prefetch" },
+  "overlays": [],
+  "pins": [],
+  "regions": []
+}

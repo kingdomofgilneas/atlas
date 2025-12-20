@@ -1,0 +1,10 @@
+{
+  "id": "bloodpawisle",
+  "title": "County Bloodpaw Isle",
+  "parent": "howlingisles",
+  "bounds": [[0, 0], [693, 744]],
+  "base": { "image": "https://lh3.googleusercontent.com/rd-d/ALs6j_FJp7JQURGA3z-Rm5N1_gcu6HcAst8onBd06t-rOO_7jJPzo9Puu9R7hXfXhsyZTqmmC94B2mQQkhEfTdVywWDe7w-YmbLZPmdLDaa0TUkPxfd7CS09fNIX32WGDseM7BWipmWdGaODZgVhvmWneKMV9yZka1vXea7kIaGMY9bP9NeFE6Qse4xVLFGRQU7F_lmRqI1aVrOFpS8WBjuYMdSm5sKtZeHpHfq-WuUdlg-0JhL12qnosBLZeAtITsxnoXR3JY-O3YIfWdFuGhQb8nSUHiUYxqtgV7Ir8OYgNbRZ1uOumiMEG_xowTQ3FCW_fwdA0M-oUuiMTPAeB3VgyP5LafrTsjgTPMWQLGuh9EFWLRLE575q2JddDzm7Soy0QYS5bfdrhevX_36DHRsLF3kMWt6whBZjUjpqgr-LVlrYzaYWS1F2QGiEqV4YTU2k72qGhVOc3d1RYRjxyx6LZVm8CAaKAXR_DbdryLHlSUVwoREKaJeDbYf9MEYscdOr02BnM1SlsxQQDmOeT4GxOHcUcsS--CbaMhMCDXpmG8lckBtxPUyBTezup-u2Cguo2LcnY9MW1ftlRaSinAXtaCS3HFksBta-9mrb0hBsnx8cwdlzFVlgiHyNi-hjnoIv782pzfaDXTnlxU8dKx_GuCqW-JhW6L9t33QpXf4jx0q9s0FN9At5igWVNzUcVgoEs-SVHBZyojWxbWOnF-yZ4MG_w8e9jAxtg_XGfPbj5HSKWoOkIZwfDOXQ_uwyZ5dfaQ1RpTu-fB0Ne82YRI8RnyxHIXNljEs8AaOYPvCfhpnFmVmuEe3ENhSpKMyPEJXRJDqVANZJd_R7IQHNUMJawM3hzi6SprFTxMNpSikvgNtnXzEzaFrHd5JqXhTpEMDqlwnZUL3Bbi4b9yzY7qTFmB8-6C9AA1HjX1alEIi8y8JCKIHkuS6xogeniO28H9ju11fjPfyJsCxKVSPOinxu6ro_z8XJcQPZsqnxDY4IVCIytOpTgSSyaKHD9eBwcGwAMI3hT8dk-mmb=w2560-h1320?auditContext=prefetch" },
+  "overlays": [],
+  "pins": [],
+  "regions": []
+}
