@@ -1,1 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gilnean Atlas</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <style>
+    html, body { height: 100%; margin: 0; }
 
+    /* Map and Markers for leaflet */
+    #map {
+      position: absolute;
+      top: 68px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #000;
+    }
+
+    .label-with-emoji {
+      display: inline-flex;
+      align-items: center;
+      background: rgba(0, 0, 0, 0.75);
+      color: #fff;
+      padding: 2px 6px 2px 8px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-family: Arial, sans-serif;
+      border: 1px solid rgba(255, 255, 255, 0.6);
+      white-space: nowrap;
+      transition: transform 0.15s ease, filter 0.15s ease, opacity 0.15s ease;
+    }
+
+    .label-with-emoji .label-emoji {
+      margin-right: 4px;
+      transform: translateX(-4px);
+    }
+
+    .emoji-dot {
+      font-size: 36px;
+      line-height: 36px;
+      text-align: center;
+      text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+      transition: transform 0.15s ease, filter 0.15s ease, opacity 0.15s ease, font-size 0.15s ease;
+    }
+
+    /* Loading Screen Start */
+    #loading-screen {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      overflow: hidden;
+      display: none;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #loading-screen .loading-bg {
+      position: absolute;
+      inset: 0;
+      background: url('assets/loadingbackground.jpg') center/cover no-repeat rgba(0, 0, 0, 0.85);
+      filter: brightness(0.4) blur(2px);
+      z-index: 1;
+    }
+
+    .loading-content {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .loading-pulse {
+      opacity: 0.9;
+      animation: pulse 4.5s ease-in-out infinite;
+      filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.7));
+    }
+
+    #loading-screen img.loading-pulse {
+      width: 400px !important;
+      height: 400px !important;
+      max-width: none !important;
+      max-height: none !important;
+      object-fit: contain;
+      display: block;
+    }
+
+    .loading-text {
+      font-size: 40px;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+      font-weight: bold;
+      pointer-events: none;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1.00); opacity: 0.92; }
+      50% { transform: scale(1.03); opacity: 1.0; }
+      100% { transform: scale(1.00); opacity: 0.92; }
+    }
+
+    /* Top bar */
+    #top-bar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 68px;
+      background: rgba(0, 0, 0, 0.9);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 16px;
+      z-index: 9000;
+      font-family: Arial, sans-serif;
+      color: #f5f5f5;
+    }
+
+    #top-bar .top-left {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      height: 68px;
+    }
+
+    .top-logo {
+      height: calc(100% - 6px);
+      margin: 3px 0;
+      width: auto;
+      object-fit: contain;
+      display: block;
+    }
+
+    #top-bar .top-title { font-weight: bold; }
+
+    /* Legend */
+    #legend {
+      position: fixed;
+      top: 78px;
+      right: 12px;
+      z-index: 9200;
+      background: rgba(0, 0, 0, 0.82);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 8px;
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.75);
+      padding: 10px 12px;
+      font-family: Arial, sans-serif;
+      color: #f2f2f2;
+      min-width: 180px;
+      backdrop-filter: blur(3px);
+    }
+
+    .legend-title {
+      font-size: 12px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #ccc;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .legend-mapname {
+      font-size: 11px;
+      letter-spacing: 0.06em;
+      text-transform: none;
+      color: #9d9d9d;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 160px;
+      text-align: right;
+    }
+
+    .legend-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      cursor: pointer;
+      user-select: none;
+      padding: 4px 0;
+    }
+
+    .legend-row input[type="checkbox"] {
+      width: 14px;
+      height: 14px;
+      accent-color: #fbac3a;
+    }
+
+    .legend-label {
+      font-size: 13px;
+      color: #e6e6e6;
+    }
+
+    /* Bottom drawer - Legacy item from HOUSING use. Keeping for now. */
+    #bottom-drawer {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.96);
+      border-top: 1px solid rgba(255, 255, 255, 0.18);
+      box-shadow: 0 -8px 25px rgba(0, 0, 0, 0.9);
+      z-index: 9500;
+      display: flex;
+      flex-direction: column;
+      transition: height 0.25s ease;
+      height: 32px;
+      font-family: Arial, sans-serif;
+      display: hidden; /* !! Hide until we find a new use for it. */
+    }
+
+    #drawer-header {
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: #ccc;
+      background: linear-gradient(to top, #000 0%, #141414 60%);
+    }
+
+    /* Breadcrumb control */
+    .leaflet-control.breadcrumb-control {
+      background: rgba(0, 0, 0, 0.82);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 8px;
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.75);
+      padding: 8px 10px;
+      backdrop-filter: blur(3px);
+      color: #f2f2f2;
+      font-family: Arial, sans-serif;
+    }
+    
+    .breadcrumb-body {
+      font-size: 12px;
+      color: #ddd;
+      line-height: 1.35;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      max-width: 240px;
+    }
+    
+    .breadcrumb-link {
+      color: #fbac3a;
+      cursor: pointer;
+      user-select: none;
+      white-space: nowrap;
+    }
+    
+    .breadcrumb-sep {
+      color: #777;
+      user-select: none;
+    }
+
+    #top-bar .top-right {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* Search bar */
+    #map-search {
+      background: rgba(10, 10, 10, 0.9);
+      color: #f5f5f5;
+      border: 1px solid rgba(255,255,255,0.22);
+      border-radius: 6px;
+      padding: 6px 10px;
+      font-size: 13px;
+      font-family: Arial, sans-serif;
+      width: 220px;
+    }
+    
+    #map-search::placeholder { color: #8b8b8b; }
+    
+    #map-search:focus {
+      outline: none;
+      border-color: rgba(255,255,255,0.55);
+      box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    }
+
+    
+  </style>
+</head>
+<body>
+  <div id="top-bar">
+    <div class="top-left">
+      <img src="assets/logo.png" alt="Logo" class="top-logo" />
+      <div class="top-title">Royal Cartography Bureau</div>
+    </div>
+  
+    <div class="top-right">
+      <input id="map-search" type="text" placeholder="Search maps…" list="map-search-list" autocomplete="off" />
+      <datalist id="map-search-list"></datalist>
+    </div>
+  </div>
+
+
+  <div id="loading-screen">
+    <div class="loading-bg"></div>
+    <div class="loading-content">
+      <img src="assets/loadinglogo.png" alt="Loading…" class="loading-pulse" />
+      <div class="loading-text">LOADING</div>
+    </div>
+  </div>
+
+  <div id="map"></div>
+
+  <div id="legend">
+    <div class="legend-title">
+      <span id="legend-mapname" class="legend-mapname"></span>
+    </div>
+    <div id="legend-body"></div>
+  </div>
+
+  <div id="bottom-drawer">
+    <div id="drawer-header">▲</div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const INDEX_CONFIG_URL = 'config/index.json';
+
+    // loading screen
+    const showLoadingScreen = () => {
+      const el = document.getElementById('loading-screen');
+      if (el) el.style.display = 'flex';
+    };
+    const hideLoadingScreen = () => {
+      const el = document.getElementById('loading-screen');
+      if (el) el.style.display = 'none';
+    };
+
+    // Text scrub
+    const safeText = (s) => {
+      if (s == null) return '';
+      return String(s).replace(/[&<>"]/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+    };
+
+    // Single Emoji Markers/Pins
+    const makeEmojiDot = (emoji) => {
+      const em = emoji || '•';
+      return L.divIcon({
+        html: `<div class="emoji-dot">${safeText(em)}</div>`,
+        className: '',
+        iconSize: [36, 36]
+      });
+    };
+
+    // Black tab emoji + label
+    const makeEmojiLabel = (emoji, text) => {
+      const em = emoji || '';
+      const labelText = text || '';
+      return L.divIcon({
+        html:
+          `<div class="label-with-emoji">` +
+            (em ? `<span class="label-emoji">${safeText(em)}</span>` : '') +
+            `<span class="label-text">${safeText(labelText)}</span>` +
+          `</div>`,
+        className: '',
+        iconSize: [80, 22]
+      });
+    };
+
+    // New Map initialization
+    const configCache = new Map();
+    const map = L.map('map', {
+      crs: L.CRS.Simple,
+      minZoom: -2,
+      maxZoom: 4,
+      zoomSnap: 0.25,
+      zoomDelta: 0.25,
+      attributionControl: false
+    });
+
+    // Breadcrumbs
+    const breadcrumbControl = L.control({ position: 'topleft' });
+    breadcrumbControl.onAdd = () => {
+      const div = L.DomUtil.create('div', 'leaflet-control breadcrumb-control');
+      div.innerHTML = `<div id="breadcrumb-body" class="breadcrumb-body"></div>`;
+      L.DomEvent.disableClickPropagation(div);
+      L.DomEvent.disableScrollPropagation(div);
+      return div;
+    };
+    breadcrumbControl.addTo(map);
+
+    window.addEventListener('resize', () => map.invalidateSize());
+    requestAnimationFrame(() => map.invalidateSize());
+
+    // Init zone for variables and values
+    let indexConfig = null;
+    let currentMapId = null;
+    let currentMapConfig = null;
+
+    let baseLayer = null;
+    const overlayLayers = new Map();
+    const pinLayers = [];
+    const regionLayers = [];
+
+    const iconSwitchZoom = 99;
+    let traceEnabled = false;
+    let mapSearchIndex = [];
+
+    // Functions - Most should be self-explanatory, but I'll add comment markers for visua separation
+    const fetchJson = async (url) => {
+      if (configCache.has(url)) return configCache.get(url);
+      const res = await fetch(url, { cache: 'no-store' });
+      if (!res.ok) throw new Error(`Failed to load ${url}`);
+      const data = await res.json();
+      configCache.set(url, data);
+      return data;
+    };
+
+    // Clear Layers
+    const clearLayers = () => {
+      if (baseLayer) { map.removeLayer(baseLayer); baseLayer = null; }
+
+      overlayLayers.forEach((layer) => map.removeLayer(layer));
+      overlayLayers.clear();
+
+      pinLayers.forEach((m) => map.removeLayer(m));
+      pinLayers.length = 0;
+
+      regionLayers.forEach((r) => map.removeLayer(r));
+      regionLayers.length = 0;
+    };
+
+    // Build Legend - TODO?: I called this legend at first, but could be renamed to layers or overlays.
+    const buildLegend = (cfg) => {
+      const legendBody = document.getElementById('legend-body');
+      const legendMapname = document.getElementById('legend-mapname');
+      if (!legendBody) return;
+
+      legendBody.innerHTML = '';
+      if (legendMapname) legendMapname.textContent = (cfg.title || cfg.id || '').toUpperCase();
+
+      const overlays = Array.isArray(cfg.overlays) ? cfg.overlays : [];
+      if (overlays.length === 0) {
+        legendBody.innerHTML = `<div style="font-size:12px;color:#aaa;">No overlays</div>`;
+        return;
+      }
+      
+      overlays.forEach((ov) => {
+        const id = ov.id;
+        const label = ov.label || id;
+
+        const row = document.createElement('label');
+        row.className = 'legend-row';
+
+        const cb = document.createElement('input');
+        cb.type = 'checkbox';
+        cb.checked = !!ov.defaultOn;
+
+        const text = document.createElement('span');
+        text.className = 'legend-label';
+        text.textContent = label;
+
+        row.appendChild(cb);
+        row.appendChild(text);
+        legendBody.appendChild(row);
+
+        const layer = overlayLayers.get(id);
+        if (cb.checked && layer) layer.addTo(map);
+
+        cb.addEventListener('change', () => {
+          const l = overlayLayers.get(id);
+          if (!l) return;
+          cb.checked ? l.addTo(map) : map.removeLayer(l);
+        });
+      });
+    };
+
+    // Action
+    const runAction = (action) => {
+      if (!action || typeof action !== 'object') return;
+      if (action.type === 'goto' && action.target) {
+        loadMapById(action.target);
+      }
+    };
+
+    // Pins
+    const addPins = (cfg) => {
+      const pins = Array.isArray(cfg.pins) ? cfg.pins : [];
+      pins.forEach((p) => {
+        const pos = p.pos;
+        if (!Array.isArray(pos) || pos.length !== 2) return;
+
+        const zoomOutIcon = makeEmojiDot(p.emoji);
+        const zoomInIcon = makeEmojiLabel(p.emoji, p.label || '');
+
+        const marker = L.marker(pos, { icon: zoomOutIcon }).addTo(map);
+        
+          if (p.popup && (p.popup.title || p.popup.info)) {
+          const html =
+            `<div style="font-family:Arial,sans-serif;font-size:14px;">` +
+              (p.popup.title ? `<div style="color:#fbac3a;font-weight:600;">${safeText(p.popup.title)}</div>` : '') +
+              (p.popup.info ? `<div style="margin-top:4px;color:#ddd;line-height:1.35;">${safeText(p.popup.info)}</div>` : '') +
+            `</div>`;
+          marker.bindPopup(html, { autoClose: false });
+
+          marker.on('mouseover', function (e) {
+            if (traceEnabled) return;
+            this.openPopup();
+          });
+
+          marker.on('mouseout', function (e) {
+            if (traceEnabled) return;
+            this.closePopup();
+          });
+        }
+
+        marker.on('click', (e) => {
+          if (traceEnabled) return;
+          runAction(p.action);
+        });
+
+        marker.__zoomInIcon = zoomInIcon;
+        marker.__zoomOutIcon = zoomOutIcon;
+
+        pinLayers.push(marker);
+      });
+    };
+
+    // Update pin size as zoom changes
+    const updatePinIconsForZoom = () => {
+      const z = map.getZoom();
+      pinLayers.forEach((m) => {
+        if (!m.__zoomInIcon || !m.__zoomOutIcon) return;
+        m.setIcon(z >= iconSwitchZoom ? m.__zoomInIcon : m.__zoomOutIcon);
+      });
+    };
+
+    map.on('zoomend', updatePinIconsForZoom);
+
+    // Add the region shapes
+    const addRegions = (cfg) => {
+      const regions = Array.isArray(cfg.regions) ? cfg.regions : [];
+      regions.forEach((r) => {
+        const coords = r.coords;
+        if (!Array.isArray(coords) || coords.length < 2) return;
+
+        const baseStyle = Object.assign(
+          { color: '#fbac3a', weight: 2, opacity: 0, fillOpacity: 0, interactive: true },
+          r.style || {}
+        );
+
+        const hoverStyle = Object.assign(
+          { opacity: 1, fillOpacity: 0.12 },
+          r.hoverStyle || {}
+        );
+
+        let layer = null;
+
+        if (r.shape === 'poly') {
+          layer = L.polygon(coords, baseStyle).addTo(map);
+        } else {
+          layer = L.rectangle(coords, baseStyle).addTo(map);
+        }
+
+        layer.on('mouseover', () => {
+          if (traceEnabled) return;
+          layer.setStyle(hoverStyle);
+        });
+
+        layer.on('mouseout', () => {
+          if (traceEnabled) return;
+          layer.setStyle(baseStyle);
+        });
+
+        layer.on('click', (e) => {
+          if (traceEnabled) return;
+          runAction(r.action);
+        });
+
+
+        if (r.label) layer.bindTooltip(r.label, { direction: 'top', sticky: true, opacity: 0.85 });
+
+        regionLayers.push(layer);
+      });
+    };
+
+    // Load map
+    const loadMapById = async (id) => {
+      if (!indexConfig || !indexConfig.maps) return;
+      const rel = indexConfig.maps[id];
+      if (!rel) return;
+
+      showLoadingScreen();
+
+      try {
+        const cfg = await fetchJson(`config/${rel}`);
+        currentMapId = id;
+        currentMapConfig = cfg;
+
+        clearLayers();
+
+        const bounds = cfg.bounds;
+        if (!Array.isArray(bounds) || bounds.length !== 2) {
+          throw new Error('Invalid bounds in map config');
+        }
+
+        baseLayer = L.imageOverlay(cfg.base.image, bounds).addTo(map);
+        map.fitBounds(bounds);
+        requestAnimationFrame(() => map.invalidateSize());
+
+        const overlays = Array.isArray(cfg.overlays) ? cfg.overlays : [];
+        overlays.forEach((ov) => {
+          if (!ov.id || !ov.image) return;
+          const layer = L.imageOverlay(ov.image, bounds, { opacity: ov.opacity ?? 1.0 });
+          overlayLayers.set(ov.id, layer);
+        });
+
+        buildLegend(cfg);
+        await buildBreadcrumb(cfg);
+        addPins(cfg);
+        addRegions(cfg);
+        updatePinIconsForZoom();
+      } catch (e) {
+        console.error(e);
+      } finally {
+        hideLoadingScreen();
+      }
+    };
+
+    // Map Search
+    const buildMapSearchIndex = async () => {
+      if (!indexConfig || !indexConfig.maps) return;
+    
+      const entries = Object.entries(indexConfig.maps); // [id, relPath]
+      const results = [];
+    
+      for (const [id, rel] of entries) {
+        try {
+          const cfg = await fetchJson(`config/${rel}`);
+          results.push({ id, title: cfg.title || id });
+        } catch {
+          results.push({ id, title: id });
+        }
+      }
+    
+      results.sort((a, b) => (a.title || '').localeCompare(b.title || ''));
+      mapSearchIndex = results;
+    
+      const dl = document.getElementById('map-search-list');
+      if (!dl) return;
+    
+      dl.innerHTML = '';
+      results.forEach((m) => {
+        const opt = document.createElement('option');
+        opt.value = m.title;
+        dl.appendChild(opt);
+      });
+    };
+    
+    const parseMapIdFromSearchValue = (val) => {
+      const s = (val || '').trim();
+      const m = s.match(/\(([^)]+)\)\s*$/);
+      if (m) return m[1].trim();
+    
+      const lower = s.toLowerCase();
+      const exact = mapSearchIndex.find((x) => (x.title || '').toLowerCase() === lower);
+      if (exact) return exact.id;
+    
+      const partial = mapSearchIndex.find((x) => (x.title || '').toLowerCase().includes(lower));
+      return partial ? partial.id : null;
+    };
+    
+    const wireMapSearch = () => {
+      const input = document.getElementById('map-search');
+      if (!input) return;
+    
+      input.addEventListener('change', () => {
+        const id = parseMapIdFromSearchValue(input.value);
+        if (id) loadMapById(id);
+      });
+    
+      input.addEventListener('keydown', (e) => {
+        if (e.key !== 'Enter') return;
+        e.preventDefault();
+        const id = parseMapIdFromSearchValue(input.value);
+        if (id) loadMapById(id);
+      });
+    };
+
+    // Query string direct map access /?map=mapname
+    const getInitialMapIdFromUrl = () => {
+      const params = new URLSearchParams(window.location.search);
+      return params.get('map') || params.get('m') || null;
+    };
+
+    // Load
+    window.addEventListener('load', async () => {
+      showLoadingScreen();
+      try {
+        indexConfig = await fetchJson(INDEX_CONFIG_URL);
+    
+        await buildMapSearchIndex();
+        wireMapSearch();
+    
+        const fromUrl = getInitialMapIdFromUrl();
+        const start = fromUrl || indexConfig.start;
+        if (start) await loadMapById(start);
+
+      } catch (e) {
+        console.error(e);
+      } finally {
+        hideLoadingScreen();
+      }
+    });
+
+
+    // Polygon Tracer Tool - Activate with "T"
+    (() => {
+      const state = {
+        enabled: false,
+        points: [],
+        poly: null,
+        verts: [],
+        hint: null
+      };
+
+      const toCoord = (latlng) => [Number(latlng.lat.toFixed(2)), Number(latlng.lng.toFixed(2))];
+
+      const ensureLayers = () => {
+        if (!state.poly) {
+          state.poly = L.polygon([], {
+            color: '#fbac3a',
+            weight: 2,
+            opacity: 1,
+            fillOpacity: 0.12
+          }).addTo(map);
+        }
+        if (!state.hint) {
+          state.hint = L.marker(map.getCenter(), {
+            interactive: false,
+            icon: L.divIcon({
+              className: '',
+              html: `
+                <div style="
+                  background: rgba(0,0,0,0.82);
+                  border: 1px solid rgba(255,255,255,0.18);
+                  color: #f2f2f2;
+                  font-family: Arial, sans-serif;
+                  font-size: 12px;
+                  padding: 6px 8px;
+                  border-radius: 8px;
+                  backdrop-filter: blur(3px);
+                  box-shadow: 0 10px 28px rgba(0,0,0,0.75);
+                  white-space: nowrap;
+                ">
+                  Tracer ON · Click add · Shift+Click undo · Enter copy · Esc clear
+                </div>
+              `,
+              iconSize: [10, 10]
+            })
+          }).addTo(map);
+        }
+      };
+
+      const setEnabled = (on) => {
+        state.enabled = on;
+        traceEnabled = on;
+        
+        if (on) {
+          ensureLayers();
+          state.hint.setLatLng(map.getCenter());
+          const hintEl = state.hint.getElement();
+          if (hintEl) hintEl.style.display = '';
+        } else {
+          if (state.hint) {
+            const hintEl = state.hint.getElement();
+            if (hintEl) hintEl.style.display = 'none';
+          }
+        }
+      };
+
+      const redraw = () => {
+        if (!state.poly) return;
+        state.poly.setLatLngs(state.points);
+
+        state.verts.forEach((m) => map.removeLayer(m));
+        state.verts = state.points.map((p, idx) =>
+          L.circleMarker(p, {
+            radius: 4,
+            weight: 2,
+            color: '#fbac3a',
+            fillColor: '#000',
+            fillOpacity: 0.9
+          }).bindTooltip(String(idx + 1), { direction: 'center', permanent: true, opacity: 0.85 })
+            .addTo(map)
+        );
+      };
+
+      const clear = () => {
+        state.points = [];
+        redraw();
+      };
+
+      const copyJson = async () => {
+        const payload = JSON.stringify(state.points.map(toCoord));
+        try {
+          await navigator.clipboard.writeText(payload);
+          console.log('Copied coords:', payload);
+        } catch {
+          console.log('Coords:', payload);
+        }
+      };
+
+      map.on('click', (e) => {
+        if (!state.enabled) return;
+        L.DomEvent.stop(e);
+        
+        if (e.originalEvent) {
+          e.originalEvent.preventDefault();
+          e.originalEvent.stopPropagation();
+        }
+
+        if (e.originalEvent && e.originalEvent.shiftKey) {
+          state.points.pop();
+          redraw();
+          return;
+        }
+
+        state.points.push(e.latlng);
+        redraw();
+      });
+
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 't' || e.key === 'T') {
+          setEnabled(!state.enabled);
+          return;
+        }
+        if (!state.enabled) return;
+
+        if (e.key === 'Escape') {
+          clear();
+          return;
+        }
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          copyJson();
+        }
+      });
+
+      map.on('move', () => {
+        if (state.enabled && state.hint) state.hint.setLatLng(map.getCenter());
+      });
+
+      setEnabled(false);
+    })();
+
+    // Breadcrumb
+    const buildBreadcrumb = async (cfg) => {
+      const body = document.getElementById('breadcrumb-body');
+      if (!body) return;
+    
+      body.innerHTML = '';
+    
+      const mapsIndex = indexConfig && indexConfig.maps ? indexConfig.maps : null;
+      if (!mapsIndex) return;
+    
+      const chain = [];
+      let cur = cfg;
+    
+      while (cur) {
+        chain.push({ id: cur.id, title: cur.title || cur.id });
+    
+        const parentId = cur.parent;
+        if (!parentId) break;
+    
+        const rel = mapsIndex[parentId];
+        if (!rel) break;
+    
+        cur = await fetchJson(`config/${rel}`);
+      }
+    
+      chain.reverse();
+      chain.forEach((item, idx) => {
+        if (idx > 0) {
+          const sep = document.createElement('span');
+          sep.className = 'breadcrumb-sep';
+          sep.textContent = '›';
+          body.appendChild(sep);
+        }
+    
+        const link = document.createElement('span');
+        link.className = 'breadcrumb-link';
+        link.textContent = item.title.toUpperCase();
+        link.addEventListener('click', () => loadMapById(item.id));
+        body.appendChild(link);
+      });
+    };
+    
+  </script>
+</body>
+</html>
