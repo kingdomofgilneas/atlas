@@ -1,0 +1,10 @@
+{
+  "id": "mistvale",
+  "title": "County of Mistvale",
+  "parent": "eastwick",
+  "bounds": [[0, 0], [693, 780]],
+  "base": { "image": "https://lh3.googleusercontent.com/rd-d/ALs6j_E5uRvUQjn-w-0-4WkSbtju_eEbgrI7QtNH7W8qjpybmJfykgUoBEqtwrkvi0B8_XNStV90wouJ9wvkpvqh-dz8c7iZeYmFwmS-AxS4fd4w7uCwKJPHZo3WXnaeGXhAiMepH9gGVP-8E2UZan8IDkmzH0r_BNPjqijG6ZwEWJXDUW9rB4KFr1nbIFrc9EFMNrWDv9jufSsS-Ih-9EFe33W9WOUZOf--P4ZGdvoR7tZEJZ2k_RFPoFO5EyJ_vTlMEwuuTfuQJCnqLbSAi2kU4sxQZlSlaERDlx5gOHLT1EGFsve1U92hywYzksMJrOBU2PwW-jhofip3Ec3MAhihaQyEMtD5FX-V2wacA1C1Agq44OmyAraawmlSQj8ghOWMqoJ5zsEUjzaHAcomE9ynKE-u9vrgTnR9wN9mTcZgueaMDANTK-pkaBtnIdDuahNbi8C6MC1dc7ZyPEcWlznn_htLXzBDFb274ImtfFNvELQuN6EprfcpzL5X0uqgMrhWtizXQM6BqmqrPcquDPXpe5JsJLYb3KAR6BBZXEMIqa6k881SYGiRnIZjaqHWlrj_6ve801f5W2g69EUUI43Yw9R4wSBgt67DPjgR4es1CnvgTpsFbzRK5gXpB4_eYzOm17c7uc-O2rjiTK1aoKKChF8f_G6D2wcbhl8qTqHKNM_hOou-bZuYy2munElNigHkUdKwFHnYVVIJLkpOuQvvijr4aP90Wp5AhETcpl7cJGBM-O6ctmv5QR-ZVpjsemCViUXvauwKQplTnIo7a95J6Y38KYVJ7uya0rl85LMq_QeWtBzeRJD6JBH4sAaZhGwL8zhW-inE1wxByEzb8qR4L0m49-EMzzI9xcLB_79rYE_tZ1Oa-6EP6v63zBo76SyIfoVwTFxx2mL8VJ7x4x2neFZJdQWdJ1xi5Os_w05ywZJCJ6PBMyezZeT-5l4OMRXBfEKW0FX9ptkFap-n-Dr0DH2-n8YsXwwZZPsBJ7UumHkpSvbvbPHKCkLYnuESPrDGz8_E3YHpghi1=w1875-h1151?auditContext=prefetch" },
+  "overlays": [],
+  "pins": [],
+  "regions": []
+}

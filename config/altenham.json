@@ -1,0 +1,10 @@
+{
+  "id": "altenham",
+  "title": "Barony of Altenham",
+  "parent": "eastwick",
+  "bounds": [[0, 0], [797, 598]],
+  "base": { "image": "https://lh3.googleusercontent.com/rd-d/ALs6j_FwELY0hPQ912pbizUNR9MYPEtIu4Jy7vSm1DeRGXiqkUJL0ZtD-drV0Qao9HHFsKtyEnov19XeEdqTE0kjh_kp1F4CodQPBaH-iLCKMXlPrAB_DzqWtTX3rT0ww_Dg1QRfMjaVGiycDzTC1JWR9ZO5Iu9_I_CuZUTv0z5kEWCZBURfJ9h3b4asYuKYTa6u5GBBa3mfyHjy81QzkMAyhSu2mbpyNvA8Xpi3kwroIqN9Kx5BFKyUfgohJaWmWev9NoXk8YQfSYzgy7zeYga6Z60YpKOFzYFKfRyKjJmnONMvSwAB1f3ArSiJmnLDe-N9Dnuwv62XHPzfIxEYbLJ9fCPknxKy91kFSCD6sZzqOH5Zkc7KX0g5Yr8cD3insbUsF_VisbAKd-k1gmLYVFBmAqDaU2fFsxOLAmS7Vm6G3O4sxlSsVdGH6RKbnKCJR81Xt4gjKaUvRASHdHcz6XuAjVSKyY8LF1a6Y5TKXQPY6B6OdgeH0UNquWtqti7bNylqdE4rgC1T3rCHu8Fr57Zro-iem9QS_7LP1n0MTtzQCX7YH7CPu4GkKCPmxWlwRtDYpI3UHR0kVIO5GG5NgU-exJVkkWAZNiTHj2dhwY3u626WVRYz7UwmFoYUopI9-3DmzUNP9tNddsox9Ruu_cGSKkKmqmZrdv2p3DyXLbOvL_XXws2jHAs76TBMUjYuRMMgnD-1d734_L-8M5FFKfVMrHIgpIba-9nVUk8VNMHn5ZqmTQ4wjp6NIqp3ssWe6qLx3guV_y2YPN4C_Bml3fMPQ0B5n5gk0_xcqCpSFGyMuPZFP1e6rU4_rP_DU2rkgTLaKMZa-C8jt6AhqC70APIZsi4N0kKzl1GMH5myxhW4boGSKC8xYw6TRiBqtCyTAfNgKxVYZSP2ExV67-zjwPRXr87HcUU-ScCTXv8xdyOfrZP9auGVtBUGCa9BVw3pYKpSDtb6lOx-QpBQi0jJF6BglNXdjg5T53VmWkThh3sCE_zO40uI-mBDEF0wnpfPpBwlbQyDkPzLR0M=w1875-h1151?auditContext=prefetch" },
+  "overlays": [],
+  "pins": [],
+  "regions": []
+}

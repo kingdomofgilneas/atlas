@@ -1,0 +1,33 @@
+{
+  "start": "gilneas",
+  "maps": {
+    "gilneas": "gilneas.json",
+    "caerseren": "caerseren.json",
+    "ravenswood": "ravenswood.json",
+    "ashencoast": "ashencoast.json",
+    "mauxwood": "mauxwood.json",
+    "ivyshire": "ivyshire.json",
+    "galewatch": "galewatch.json",
+    "stormscrag": "stormscrag.json",
+    "duskwake": "duskwake.json",
+    "redfield": "redfield.json",
+    "mistbriar": "mistbriar.json",
+    "easterleigh": "easterleigh.json",
+    "howlingisles": "howlingisles.json",
+    "arevass": "arevass.json",
+    "cobaltisles": "cobaltisles.json",
+    "northwald": "northwald.json",
+    "gilneascity": "gilneascity.json",
+    "eastwick": "eastwick.json",
+    "westguardisle": "westguardisle.json",
+    "hindrancebay": "hindrancebay.json",
+    "northgate": "northgate.json",
+    "alborough": "alborough.json",
+    "mistvale": "mistvale.json",
+    "altenham": "altenham.json",
+    "bloodpawisle": "bloodpawisle.json",
+    "bentonshire": "bentonshire.json",
+    "edithglen": "edithglen.json",
+    "winterhelm": "winterhelm.json"
+  }
+}

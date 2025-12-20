@@ -1,0 +1,15 @@
+{
+  "id": "ivyshire",
+  "title": "County Ivyshire",
+  "parent": "gilneas",
+  "bounds": [[0, 0], [762, 1152]],
+  "base": { "image": "https://lh3.googleusercontent.com/rd-d/ALs6j_HLdbehceZlVfpH8-9cKPEkM-Zr9VTtgMibKcZoinKqqsn8IaY5ZNLUT5Q3IvRsOFdVd1LR7wcxDAJXBHYPtolEEe2_Pvqggns9j_JVeg_-ioQH0xRCISSUHPRJd--BgEgMNIJri4vA6lfTWW49cowsOD1AQ8v1hpnlttQGO46iFiNWS-UgAJ2YE8gqAwytaQKc6C2ccz67dd5kEFzRZ1-cel_M-eXNsgfisOymWFC6PcTXixUqRCJk8GOWgWPu-zsZ7CPpYHr3lKU7AiLsb4LYHiO9AnLWXOrqzhW8DRy3v-4moH2QY9dHAyyzfW1DyBoMZKCNRUUKqYWiimkhGEHmlb6L4kI9XAfs9hdf7FD1VYMCEZV1Kj-jXwGbkpxFg8d7wQ8J3yalc_MrW6XE137BVHRw9MHOb3YD0dKsdcXViVEgWodncDCmrf1z5UY0K-BRiYxQFIwzo6k9H3z_4eWMb9YkKIB1jvqmhImQCz3XF_gclVmICIedTqRQ79SCA-YV6C3wfDlz3YpunkLhVHpUyTphAftOy2B8aSslxDDqsrbcEzuGpq4XwnA8JcdQam7ywCpVCXeXdK84aUn3Ipce8wPRCqNAnHMmMuUv55Eehk5uJHbbUyr3C8YX9hOfzx6ICNuX7SLkhLXtimHHW7t7RI9rlRcopwoGkwJa4Pb9F2RRhXOxNbncnvm5MQQHDlZVsy6tZ-ooMEqsmeRGO3MjGCjbQYVlBVpQuloI7y-0GPDIWRzid1DSUtKJleaSj6pACrisz0z7K2hBuZ9Kqllk8c1v_fMGRpQY0s1J7gnW3FIIdj1HcGx3CmM7mWbjPUtKny7NqfX4yzUqjSbZop1SFQjz0pJCyg-LsUlGEKgMTZu1kkzxPGQZIpgTjgP0N0Wo1Hyk9RTws_qiFEDrDiM1j9PIZgYkktFCd0xgxMuf2jVtNKFCjF-28mDSehdcw8Xy0WSgAVvtSxaegsn0lZw7Voydam6UKrdWHEZMddw3_-KGTIEI6f2cGQHFXbAKNzzsnCOlM7M1=w2560-h1320?auditContext=prefetch" },
+  "overlays": [
+  ],
+  "pins": [
+    
+  ],
+  "regions": [
+    
+  ]
+}

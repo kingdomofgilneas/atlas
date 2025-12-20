@@ -1,0 +1,13 @@
+{
+  "id": "eastwick",
+  "title": "Duchy of Eastwick",
+  "parent": "gilneas",
+  "bounds": [[0, 0], [1151, 1439]],
+  "base": { "image": "https://lh3.googleusercontent.com/rd-d/ALs6j_FhJBCIN80lW02arAA_1JscG90DD_psSSVfSOvbqSjNbTXV_YtkbaRC-U6vydj4DnINdmsNt8pIS6aOSX8POH8QuGWLIXILtlc2SomPhLCDuDoMtvFFbS-lPkXI0_tZUmV9_Y5GzpjL9L28ti-pAMBJ7D_SC4hlMz0Pz89cyXAXE6NO21TCgHVy4uxU6Hjw-abxg_g9YFJblXeuYtFrOiTP3_gBGxeQCKDMOcctal5qTCeItH7Ag5diconIctNDBe8k461FRIcvx0U0fPJn794RGXOoH3YJ-qHCM-HgH6mDa-zHB_6t8UW8na5i1WSVBHeoGi0R5cqFIu-fD3t4oeJWFxtPmgC7BqCq7Q_gn4D1Whp4YTE8lYujn1YY2QPxmIcMHC5ssTn1E01lQ3ZcSepIhzWyYPm9U9QrL-VswWZhGoZWNxjLNaGZ-DoO3wqJqFR5ml_ntHFE06XOXIEQBQMXTifLViNV47hcgoOU1LijIcFxniw5E5vpr6UiwLLUbJ2Yv0SCrsNS7jzg7OVJaB0J9dv8rrSxrvwInQx70qG3jXydvpWbzDwPRr5Mt3tGOFoU-iE1P_MUSxlBJGkcNwOPW75tJjeT7vAiL6yJa-HnVl93Xhwqt1hHTe1G0t7m-0yEBSmt-2N5XUCqMAKhxURJ_V1acH3wamzNMfCOZRWWA0T0nUhpyLp7BEUYXr183PuzZrgSiLEbq30xNZm2mW67a3WYLVR86WD7EsJm8FecvMCP9veipgm9UYWnmgJadAvuejawjbkNyOUStI2_ogm1GbxFB8eMACXQ5StHA5n_gF2eJ5PLIEMg8-3DSqgdxvIRnHwuRU0j-ITL44HtrWENB3p-TGaZWUNhecFEER8qtur60mOics4LD4VCjHg8vHzv7R0e0WxeVGYp94VqSDV_DaxHQ3jhCnQ_0sxaAtEJ3TGRV-UKeuTXki1ofqPlhboN6D3pNREVSwVt0DWF1LHTibUeBkfOUI-SO4PnUk97_53ZKYLM-M4iXb-TQEgZuXhzw9zRHIMI=w1875-h1151?auditContext=prefetch" },
+  "overlays": [],
+  "pins": [
+    { "id": "altenham", "pos": [272.15,441.59], "emoji": "🚩", "action": { "type": "goto", "target": "altenham" } }],
+  "regions": [
+    { "id": "mistvale", "shape": "poly", "coords": [[1151.06,920.56],[690.15,920.88],[690.47,1438.87],[1150.86,1438.66]], "label": "County of Mistvale", "action": { "type": "goto", "target": "mistvale" } }
+  ]
+}

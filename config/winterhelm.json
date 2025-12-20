@@ -1,0 +1,10 @@
+{
+  "id": "winterhelm",
+  "title": "County of Winterhelm",
+  "parent": "howlingisles",
+  "bounds": [[0, 0], [693, 1040]],
+  "base": { "image": "https://lh3.googleusercontent.com/rd-d/ALs6j_FpPZkTUqnm700fUdNVwzawANK_dV_g4kHU3Jcc7Y5ZP1Vzc0oNmHDQqRfi9QFrvs8xMNEgGBU2BiCOzTZCH0PGHZyLBcZ3LY7Aaat9LXV-Aro6zmWgVtfEo44SBoYYHIwcZTjgjLixK1lxrYXnYQzoBOQf_Z5T-IkRqZF1GPEteOpwuDvyLA83LeVIF0CgMf9oAAKogFQwo4iZtkV1_u7F1Z3wKgRLtImWwMieHZSS00O6tZuEOOmRVv7EA83MZPdeeCGsbVzm5LXDdCoQMy4rxJbxT9ZAo37pawBZ0euWK51tJuY_0Einu6ZOUOYo2ucyfYK6y31a526S9S6mIQl5MuAiIKoamKIZzXsr2BwV3oIa7q0pFaXCq9TtmeW1I0UHbp3VZsnDKeMwTKbXZIYhKq-2OyDYPPnKekONbOHoj1fhkQHLMZ6wQAQVFHvkEEVeyYIfDCOg4lxLrQ0gt0hcjLYCZJNuXjVMup_9V77Qqei2nKKijlQ0r75nQranFgKvJuHIqbbN-Q-3TpN7KKjQhtztoiqMQnvNPD8pZI3UA29QqUx2NTHDKjrksoKYcQlsrP9tejS2IyOILHX8XQ7B570tlLQCV3Gy3HKL60W9rf9D8U5n5UcsWkgjc4Og2r_1OKqbhz8gOreBn7aU9IFIt3lCTVFQFR8j5kxFNtySQy7VbnhdtdbYnG92R7TABcIH27clKZoDAccmDfutRCa1KL2bpi_pvKlm0vxBiSyeBuARKQCmxe_oR__FmJHNEIbORyosJUwMOLQBAaZaK2IIaHds6vXeIZkOOM7gLKU0yjIxYqJF8FUE1nTtVfLlCSA64ziNM_7-8hepfbPpWvvojjA0hZZmxpHhp-VByu9N_gvFmHfxMks-JihztXAdZNplcyhO7fumBVao75VtiTuebwFem0f199bYdFoZbWj3k0l0CzGXcYDBwvAMsY17GjHZXSyxsspjla_jvXV1OaIC2dJg88OItl_UvCc3Ssvg2tSKpZlDpV_fiJkLMSRq3hOQ1E17Tqjl=w2560-h1320?auditContext=prefetch" },
+  "overlays": [],
+  "pins": [],
+  "regions": []
+}

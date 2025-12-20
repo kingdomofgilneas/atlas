@@ -1,0 +1,10 @@
+{
+  "id": "northgate",
+  "title": "March of Northgate",
+  "parent": "arevass",
+  "bounds": [[0, 0], [1271, 1049]],
+  "base": { "image": "https://lh3.googleusercontent.com/rd-d/ALs6j_FUGwcUXdDQAfXBs5Fyb45D3G4YJpYw0csozOuLT0Rr-9IGEgaiI7Lj40dZkx-c1EsLcfRXGigMig3wpbduY7AopP5afNKpllULplTZg5vBj4qOJdAPUQ9SGyKOVkh6E3L6Gt6D6gl3r0wtZ-f92jO2x9Pbx6zEAzVUduxnrOY4XqJZN_VKthb-ApdnZKOAqtntqPTlt1bztAJeF4Cv6MtLIDGMnDubjcuE0REwR0HOH-io5p-702WO_cqDhM0ehom_QmKbXBhCdK4UMb7UT49uU7yynW67pYQGB-IM33HDH9K6JdW5rPwfCeyB2BSZTkmDlWDBMXok3ayYtvM8yF38C94huRZgoJhWuUrstpfd2NqJ2Wl7Fqr2HIw7acz63dsw4v0o0ME5CO1BjYKMsmbO9FqkYJfl0bjn8qG-5ViTrNHtzdnnH6FwToSRbh5vHjKWPPc60y7EOVoF7GDmUyT_Bh7zE5KW_OHZkB7dGMXIpe8ym0qslm-UumXLkep6eC-y7NrzkFf3NOlEn0xj4OHIjVWMZ8EHyBw6CFpz-3As8UxqzxFSWn2P445AJPNEBwV8Kq3GQfaDrsg2k3mVLZXemyVYEvFmXuN6asy6nvTsxkLnBVeV7k4sZ3I7t3gLcr6Xj56SUrTQhX5eWDwwpWz1ydQD7q5SPrlFzy4IO-eShSGJXzzFefzV4ePaAuAmCDePbsoRTbwfcDmtQrGgqQiUVOvDal3CRd2BbTHX4tcvDojedtUlO7rfD3XUE6rhe0_xdgGpWEDY90CZz-pu7vM48LktWKLD2zmONF6bQjeS4rrDHQjdMiQXqF5DlzodFSNZ0pCMQIHGF3v2ws-2obH9ja9T_I4uXJmJhxQqCNSc7D0EpMEbtFIp5ypf1CiAIGaFbNIyHy1a87jsxKbDv5rbi8Up-inSflS4Bg8zvlCx_JSVeY0vS2cQ02yfN2BXddD0V2wA8Tc9X3_Zm0HWFHi3_LL2kzSNb5o2xS_-5u7IJHzqbkub9EGMrPiDUpNru6c2I3Is5vV1=w1691-h1271?auditContext=forDisplay" },
+  "overlays": [],
+  "pins": [],
+  "regions": []
+}

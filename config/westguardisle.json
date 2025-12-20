@@ -1,0 +1,15 @@
+{
+  "id": "westguardisle",
+  "title": "County of Westguard Isle",
+  "parent": "arevass",
+  "bounds": [[0, 0], [1163, 666]],
+  "base": { "image": "https://lh3.googleusercontent.com/rd-d/ALs6j_H3HYn4hOKEb1OGoEaBULNE5LCiOvyXnfAi_lBwZpbDy2VFJURaDoGRi3DBjMJBCY7c61rgM4WU7DRuQz5NaCEWCyxcjPgMnurLfX6T9WfRlGhkTSXr7PUYZc85qZAFBQMJnYBbDsOKJ3mYBoh2iNOg6Cwia4VkCpwkzzuCP9Xgfw9QDGPuoIUn6KsC7oPPbHu82sA-FYg_6uTLujRslbml8PDy5_YWR93AO9vpa_bBEOzEGo0QawUoiMuU86ALppJLspq7DXGM8Ty10km-BUavvn5MlcVSZiNHZ7lSzgz9fkZXeNE14kfh7GCrs5dlTjDFQz4sNtCfK9MIV_l8e5oMnGI3m9mRtr6z09SvxOKnncI8kpURXCDNsqg9bm_gzG_G4lMfkQ3qElubevu81m1eJ8uQg1GkKnoOhZTvH8Gy7n1CKdwJrJ3LfEFG8mr4mSFrRpvDQKsU5UL81tRxobDqy6kwiWboGlAcCCu4YgpgRq_dskvjTb3rRdkBDz-DQE_1nHGaYvfQ0YA20smzpLUNRouV5_38aL7LCM4umEPvWldo7_NV8DvE4c3yh9Kx2de3LHKMNAdD4kxuBdhi_YmkHLyjqFM9w92BKGX3Y2lV8qRlvm-3G1DFMGN5GvE7b46XRMtSqszYdukGe57KZxDdYjYlH8odqFk4K093GdNBttnTLGNjl0F7qxChPMlXWorzY-JHLugLvxy_F2_cvJN59Von4kd90T5k2W4mMm2HxwiXdC0SUGDTvdfEq62v6psyNQR53WX-p_MLnM868eWBUbgmslRcd_s28acyXG5wmlFfyL-CFEXDnVYkmK_Q5woUhC_ye-AexAvjg7LsPzzNrvKKzR8UqpvUluskz2Vkzp9ocFXP7KTyM4sN2d8yBt1GNgKQXqZ1_uDvVKcWSJbx8-bXAcTi4l5GdqX8ikLVye6YgKb0LMEYo7YPO67bU1vEnXoQhB2g0enFeKIwySdqlq-qbKzQx3ZAiHcH32JnjDzzB3mJF-7RboFc1HLnokQIUJYLqBPi=w1992-h1163?auditContext=prefetch" },
+  "overlays": [
+  ],
+  "pins": [
+    
+  ],
+  "regions": [
+    
+  ]
+}

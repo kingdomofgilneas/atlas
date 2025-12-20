@@ -1,0 +1,15 @@
+{
+  "id": "ashencoast",
+  "title": "Duchy Ashen Coast",
+  "parent": "gilneas",
+  "bounds": [[0, 0], [750, 1000]],
+  "base": { "image": "https://lh3.googleusercontent.com/rd-d/ALs6j_GubJL4CQrnxynj0sEUIlIv0ybh-7L6XGVLa748dT0vSeB8e4pbWnAGuG0OVrGMJ3ZzoApy5vNebdlFsQ4YwbQzc015HBDYgoEIHxmbLVfaQbMHF0COn9usmCDVQdcq2TWTpFvhG3zizYKWu1OJX9ZrNvqU2ngpcdKdgQ5DzBAznVBT6Qs69H8K1JsJxThx47qiPqg13rD0aHDgNrWn_1pJyNGKsqYYygV93yo5ebC_wmIeJegdM5mw6WKas4YTbJawZwHkYqWS11UVAdFjs49LdFY_RAegeIpBJmTrP8jArfnBXVzdCnTIcTSgtLeXq25h5qURtCIM7Hpam1qX7i7cM2F43g4z4FzCOjrfTTpK7nQkYcHhVP0E15aIFgtyaZenibI49FEfH4xWADrhh2CfrrhH6K498fwZIcBOwCGvbHQ_oeWkr66jJ4MPZ7jspqTShfc5dBQqI0z-0P4C8EBS1M6JTeD85bLB6gnRvNQAzKR6eviihrMWZW9H77WZCsHKRQ0fYCc3anOfPyOhkN7gv_eAplSRmCSAJQAPfpmt9VWlrklWHMy5GBKMhTzPQnYtnXNp7hvxMdp6V9xi0IY-JmWbrRsfuEfd0MEyhQ1-HUUHc3eANYNPUuAbOA7YAYqodRgmdsHS-6UmDv3ntg-rCcL9A9UPa-svGbtRRL9uF4OCCaMFNoY8EtKWzllfCWoyayuD20kgBh3yEzw9V2xklWsxY00Csjytoa1hkw-Xk2c2O2peCYdyOVoeIuhsO66OjAQvmCQUBhZyoEi-mbT8tGED9GNnTGCclXn8AraTwqfEzFAbl5rbHC_nz08gPzdm4dfz3nc63dYkvQlst08lDqfodWXe-muqDqTHc-2lKzxVZi464Fy5GEJriRUAzZUCdiJJ09OABBsRrjrOCnrnfDX3oovlR2Iu6AHNOqbL7WMqre6Y7oGkpM8iw3lWsqw7L-cwsfX3HEa4cdLW0NgBb8kQnOBjBySUmoPHdW-xRr8N050W9tCPYb176LniwykMcVI_RAgU=w2560-h1346?auditContext=prefetch" },
+  "overlays": [
+  
+  ],
+  "pins": [
+   ],
+  "regions": [
+  
+  ]
+}

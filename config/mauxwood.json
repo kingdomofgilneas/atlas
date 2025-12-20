@@ -1,0 +1,15 @@
+{
+  "id": "mauxwood",
+  "title": "Barony of Mauxwood",
+  "parent": "ravenswood",
+  "bounds": [[0, 0], [442, 379]],
+  "base": { "image": "https://lh3.googleusercontent.com/rd-d/ALs6j_H4vecFfB09qcoJmuT_--aEduLYYqFtvZGI1L9J3yKW2nIvP5W-dE3crNFdG4HzyCYT6k6p6pw9QVdrJ5R12LsPHcGI_FJQ3ohOjZ_nWb0s9UkSd4cTCGEbdRLpw1bvTQOII9mn9oUtdYpppNnLdNz0H49rOT26X-jQav3xFewpgisLOpyD-E02_Y6yKxYrTZUH1Z98rs8-I4QRf0aP187efVaWqkvxyjy0KaTVNrZB0KCLllq-UtQKjnnbgDsrMEQ12o2KgkWChMidtH4heEGb4on2ly7KayeoOGILI6iL-FgdG7VjdxRbC-FXllqDYF2CDzahffVbzotNVVZG1P_FTdYE-mC2PgCUKiirX3U7ZuozVCCPFLYsrBSSWBFDI_Z5vR3mp4gCA93GJACd8gEqmF98Ifwo-gFziN40pOdQUVLqqRQQ8vC6xYHfDI003rsnacORlqja6-scfcQlj3Hs4aUZ1pe0dRJgh5BV6pjejeurcm0ox2oukHrWnPRhv9lHvH1YPt7UZI7ggf_M5uj3-TX4eOAE0BIpFmmesU9V2Aj5zXtltVv1FQxbmaX_Xgq6WLs3c2rm44D66qFKPvpn9PCq4gJV-tR7J61G4wr2AD86t7hrikmNW3R2AaPWPkqfjCdi_coh0Ndy8-z0qAS8cSNQ3X4DSFKnQB8kG-0GAzSVTWf3YRiDQegNcOBA2iXveYG4WGau1P1N0QA5iRehVy5wsrPy1dUaSOwA4SpYx7nPsm7eRZK6gMUma-EzRa2Jz-FCO28sN1UN6tzzNC-Rxztg5CSyL6mbS4t-oOn8JLTV0AjtTkk3C6j3Q6sdPgOjMnCYvfD7fdd1_GPO5X_3ApBOOYWVXlISM6OWPUCqL6FD60ypN8WYZGsBN0YAMYaLdgWq6G0t_hQ0PF4VpiHmTmdwyPm5ViffGm24V2XOcr4sEyEVl1sJWxBH3a7a_e1RuCMtVzKMqefWm0wrzXJNaDSgIoJmdCFsRR2UoyCNtF4BbdnKyWUokIaCuj6Z4Sv6R5jXvwY=w2560-h1271?auditContext=prefetch" },
+  "overlays": [
+  ],
+  "pins": [
+    
+  ],
+  "regions": [
+    
+  ]
+}

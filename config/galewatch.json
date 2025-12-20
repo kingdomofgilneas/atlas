@@ -1,0 +1,15 @@
+{
+  "id": "galewatch",
+  "title": "County Galewatch",
+  "parent": "gilneas",
+  "bounds": [[0, 0], [797, 663]],
+  "base": { "image": "https://lh3.googleusercontent.com/rd-d/ALs6j_GzxtLDW9KCWkrVHOKKeTkA5ubIPMVv20ry5b9aTMxCzMGA0wEkITRUH_-k8mwVMPHT2haizVMk4XPpV2n8WCZ-GGoGoaobg618X15DJU-nuq18F8-Ae5QzbxDu7u4jc0dCrCz788F33qh4DPO58tcr9_Hp6iSwTQeP2x-jLyZl7KqV5MrizyjvN91lJSLt39Pbpa4SOplA4DgtEGZh_xFk04XDehGM5wiSd3aI9A3XX0hWT1YLyYYcbA-csLz8i6je-34CwCFjA_uaLvKM0pXbr3JPoffQwDht5h5nu13Jb5l34ZhHxvtQ-yQ8Btq0YkntatU0k7ywSeVKmt2oSEzTsCuN3JQqhKxrXqGm4erKiNOhznazVuCNoKBMtE0gSTw7RRqk4gzeYGM-DtGOc1MU316cm9ZzK7QqMRonIPShLFb5dw3ZRkgYc6eo9kvXQCMs1J6rdNqF-L1zmMn91-ctVeS2sxxnBq_fAQBuSCQN2UtaSRYfGZA3ijoqpltsQKP3AO-YqirYQfVx8U8l5NK17vFxsXKfj9oWBl9LnRz0OTO-u-zXLe-xG9wF_h7F1Iu_wIi_81LUVGus31D8-lUMBycqLU_z45SMyVVY4Mu7uMYPhY1JarPmvCVoy7hzzWWKsVjCRfZv9fvgtw6eCzAq6NJc5Ea1msvCuHeAT5DgpPtQbCokptpIjmpCsZFNMUGBb-MZkEsVJqgMAn_Y_Xrm7pUeWkU7WnCOkXob9F6VDnV3CeRDwEMdGiM1CDNYQoPo5NWZz1uX6qMPxemlgFNKzHX1-MdVooI2XL4lqLV0qLTDiOo_ujv7z1zhDyb4Kxka3AuzRSLhBRHnJWz_JF0ACBtsVylj_1wxxOLDO1iQQHSeIH4phGfyzFtkVbvKV9j4lCRuKc-gS1Q4HI8CcQmeOs1YVhO0Q5qyTidz0Pj6ZO5XREzLQ0XpLLnAsgxEj6QueDYlGbGfm_raeyExaphHXqRaVl5Bh3vq4TpQaYlGSPNrQuyf83nFXTGL9Y1n6m6MtbiQPyLZ=w2560-h1320?auditContext=prefetch" },
+  "overlays": [
+  ],
+  "pins": [
+    
+  ],
+  "regions": [
+    
+  ]
+}
