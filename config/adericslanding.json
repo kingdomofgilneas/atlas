@@ -1,0 +1,15 @@
+{
+  "id": "aedricslanding",
+  "title": "Barony of Aderic's Landing",
+  "parent": "gilneas",
+  "bounds": [[0, 0], [770, 1015]],
+  "base": { "image": "https://lh3.googleusercontent.com/rd-d/ALs6j_Hkulp5zKlXV_5c4tsFa76CuZGJs1z-sAT70BHTApk2Bstui9upUnTWu4i0zPN4JqXWnBjMWmIdxH5TWvTMo-Sg12H0cFREZ_Yd_Wova5YRr8iTOoZK5y-23dsoCHPYHFZSr66okHG32kRXywyUeDGIFo7GIYcEvjw87Eam8lFpuF18uFjL6L2T0MObqOinXTs0vhcCSafIActGnjqLtniokWNZQY0k75TYIghcZEa20x3KvGtJQoNhg1w8HmnP4FllCdovaT-KU73c3Z0iZ8BLejOkt3zgQNKYS3T1SF5VV3jav8DLz7x06c-AavGRP9fQGQYZBfS69CX7gQA6DbREn_S2Ao34yHKcLuPK7joUAbyoCODwf_ioqodXtjOD-LRrH9wmMgOiJs4fEaafgRyHKE1vJqMC3yWcAepORnUdhJIp35tWfM_lHhUm5sFVO7EUc5jxEwS7nUYK6tV26ptlmQ9Z5ON6h6C4-gVpqKQRxM2ajn6yCXX13NHQxsZxKYhYSePhxHWW0ESrofnMsdGdzc4CMyKOrE04OMBwvn1vdbtup00ZnXtJ36mq1TlyogsUJR1Gnh_IIZ_jzsqwWH570TmAk6BXoPC7F45VjzInmvTDXappYaUwY7PG6NS81z1BfKv4f-OrSqnc1x1CG-4YFCivAJ_022mwHtWCkOoSZ2SinGBUDVe0AQEIix-LQPU36RjUB8VKTic1q830Q-YENK1OfhausZ2Ok5FvAzFJlUB2j7RVfUK3uyE3jT-Psfmc8b1yNoTxezVszjOOQ0cYjJ7kkVway2MDC4CN9CUXrnWl0sVSNREW-2sWdOu5u4EhXhVSIJcoAboAZM5B5wmcrwKepxDrNAOIuPD0a7rYXUHrQvXpaqMVQQQyWT7UwDJQxHTOwZ3EIgLFnxBySZ1riMz6yD2qQ7i5yRLXYqxDHFMK0CKzOAWSbEXTaQwuis5V3wJZr52u9jqC8iOHMyHkUwhOCbkEHPHHyFFN7Ad5gLAjLi8QdVF-_l42BFdDWVE22xFcnmM=w1705-h1140?auditContext=prefetch" },
+  "overlays": [
+  ],
+  "pins": [
+    
+  ],
+  "regions": [
+    
+  ]
+}
