@@ -1,0 +1,15 @@
+{
+  "id": "stormscrag",
+  "title": "Earldom of Storm's Crag",
+  "parent": "gilneas",
+  "bounds": [[0, 0], [2034, 2337]],
+  "base": { "image": "https://lh3.googleusercontent.com/rd-d/ALs6j_HjlUxxPfe3ddKExSQM4VF5TmGW-W8hcMWCMbTZLTiCayrMVys5_5k4MEQIh0_UJTGu9WhmSRrKAyc7Gm22G5_JvfxsXLxEmMZa5naoJNEpl-5EA_xGhMlXWkE4srxwr3sJlWnLfCG0DQWjXwwhJJonPqxywQ_Pr1OZdnR8ez-miXntUrrtIwdVPlCnHj2e4aCZh3und8xHcLGmBoCut38YlfKHuZELoHE_JYb6oros7HdMtJTbKrCu_-gJPq-NISKqjO5FL2VJbZH_NaCAuOhACYMIB7Evad23sx1-GbPFW82dLL122AwG_sDCGIjXV-nZNk1Vmzmr4F7CIInubMiLojJheyZmShpF-uarbIJbi40pA_s-jL06j1BUrEJLQyr5ugXaFBhxMqQ9EWryG8gDBencHFWKN9zfgHLARpFM0KYcid-vCYiDSoKcVT9hDkcsMCgVByABS-Z5yastSqsq2HyON58zCqCWBwE7pBDhdW_H4fcmgcYm2sU5He9OBX3WRVwzqegPjoUlMCYfkDmL9WpiT0-p23lIfJ-F9qhc59fLwD-hv7Q74j-3YGC-RffBvIa359-elGIc0rR_CEsC0Q3RLK9gudCifnHTrEh44FjgqTE0Q0HUBq_QrmWGVPjgQ1BbXs_hSJYHHZcDghh7bA_Dp8vcenjSCwB_gIukVOVxlGoSsAniwIOMx-c7CT3cm7f66hzq-EQI1RpezTi7yieRm4EmRFo-zz4W55tQ1oV-E4WzxvdA6QdQ__qqP0pGj8FJ7SyN4-GpY6tLs8jE2KFIGLw1mnsVHOOgR5Be3jb5C4ZuLex176aebl3mNrgHzEPlShuhpypA8YkTJn4liNttpD_3NIe10rB5YqI5iQo_QU6T72e0zXzOAYnH1_uQnDhETX2S4pt91gjhK9VkcvootQz7arMdVx9nwWS3PX1jkgQO6WcEmoI5SMz5q35U78E6hIQ7gzt-KVp8Of6qiYixYuWRf1kn62x5DGNX2-f5tT2YTkLkj8ncM0FvYcGqUexxiZOK=w2560-h1346?auditContext=prefetch" },
+  "overlays": [
+  ],
+  "pins": [
+    
+  ],
+  "regions": [
+    
+  ]
+}
