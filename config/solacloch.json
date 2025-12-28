@@ -1,0 +1,14 @@
+{
+  "id": "solacloch",
+  "title": "Viscounty of Solacloch",
+  "parent": "gilneas",
+  "bounds": [[0, 0], [1346, 1795]],
+  "base": { "image": "https://lh3.googleusercontent.com/rd-d/ALs6j_GCTmWOrBHv3Cj605NzHIzvm-1gQGuEA9vrK20LInuLx_ArVekNT79QYYKrFgGtrMxZJ1ZHh3AhRj4KwNoF2ZGAE_kXOW2yrQuiCvVRaDY7FTI40LUIByNV-AdpSQsURGlHYHUvhvdmbDOChjMe0eLJ94m0jz9TQXo1a9YeKzvLODfyHPqUHAanuQTd0sRu-dMFehfNl98fY6tJ3_9U1zet1o6ahxs2ZjUp5kIKru1j-S8-Cbwv7VrMZ1butbwca1mEoWjSw0Ql9bkILeBdvCN6eqC8Cb2aJk8XHvPTlrDt1uFxgF4S5yLWUr7wfcWnEk4SuQ6PoAWibTPc1C0-KQAOsNRH8Lq1TSW7VsR4l9Ojlbcz5Yz5f3YSuIj-1QcEeOkHgJE8NMHRfnguSIabf_gzeUqdR6ZQHw--1WfnondkLOWBDyvb7jXW_VSvArdtpSLt2fc0ZtnErqK-LRocE-dYXeNujyeQwZQb91FzkRaE5LMERrAl4IkfIk_XF1HP2_0skEdK6vyNJA8fD23LNRpdn4QpXyuC3zPbbnOzsc-l8fK391jpQ_QbVu05Tz4qgJYqMnSkF-WgRG2g7rPSf0YW0hNYMDl9AtcR975GIeZ_YDlQzLmCXOqDiiR_XxSamzqyLrAI24XN3Vs84JwDAAvAESGj_wraHHtQ54JGH9V49GrXXH4KKn2gpdz9lRJ2xIfNw5DUbkSMDCZ1lQH0NeUazfJBtsGpK7Qt98FdA_-e8ny8w7Y7vattX3C5-s-wBY3ok5HI8usQVwF2F7S6c4ajoA4-WsoevEsyi7jO1iUPTQObFmIo9pt9r9cRCmoX9vtx6uLwHBA076J-l1YUfIf9ffJCxgEGHy5f0aCWZbCC-u4DCbvaVvtz5XTY8kdt3buqfmWIkYzKef2tVd3e7tQx_C_zf8ySPyYxKOqIia8u4F2IRXQ2MChRuRNmpimCBRBOHloZl-j0WVjTn-d6FwlJTbzc3bRzKY5ZoSui7R5LhQdRNr-zFnzFD6tcNzSv7JPZzgn3cqKz=w2560-h1346?auditContext=prefetch" },
+  "overlays": [
+  ],
+  "pins": [
+    { "id": "blacklight", "pos": [935.08,981.83], "emoji": "🚩", "action": { "type": "goto", "target": "blacklight" } }
+   ],
+  "regions": [
+     ]
+}

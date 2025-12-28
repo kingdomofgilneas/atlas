@@ -1,0 +1,15 @@
+{
+  "id": "blacklight",
+  "title": "Town of Blacklight",
+  "parent": "solacloch",
+  "bounds": [[0, 0], [1191, 1057]],
+  "base": { "image": "https://lh3.googleusercontent.com/rd-d/ALs6j_HpmxMkiZ6nm_7xX9YoQKV8s_rOPVckKFLs1nHniQ1PkmiQYK-quwwhWCj4sF6PvM4rKyZcdjslLnAkYaa6rSV7fYAc_Tutn6YI0z80alHARtP6lfc_z0sSM_QHMMsYJ3JcQJyZEo5Qnxrut-LkHLpFoYdAWhg1_Fjz6JUULCPBxMc9jD9YwgaE2LsAaEqU3k8r7cQ6nHzxu83uuzdCjI8GQ6FoT-aho420oB1ltV2QK0lKTXdrEOTHFOc06JNza_ZrqAIdb6XEfnLDxSbPsNY5HLikOt-owOJGIRnxS4bONexg6jJugqVIjIao7qZ98OekMsFR2bQDJbu7_DgWFo8zXMb9w0u-VQ9MfXVCb23JBOiww3KLsEkE8PFXDwY80iKq3bv84p5vJKzB64NsAstlpwFkYtFDE4UhQCzCyda6BT9K0RTolEUjKDeXgEjUqdYCzBWheMQuErLdFYHx1qK-Ko3NlXBsqpAyUO4hQGH_p6XsIKgdkEnMi7J4RjjcDdaTup7vkXlhbgFGRl7WslFFMc9Pbiwp1P6Z8N6bP6i1B_UMe3qJc4HuNubIBIOSu4rGUOo2IjIgzExY2dYTnukLAPu17iioXHKuUafsDuwuNoNeJcp6Zm50tf-SB3g4ztkBQw9IEDwjOXLT9oMVz94TWdrW_I5CVRVwv5IECqNfKC8Iw-XtjtWCeBea0Gv35ZheWde6HPf90WELnUO-YDuXHH5n9dBV9RaVkXs8pOnN1PKaQNJXddy4i9pQhODkIuvfvqD2hG7tK-zgsv9qZzMNEJV8Kp3z0OGrASNTkWoWSjOAoWc1NMm-sCt_QNjcRzDmX1TJRHnJI1aip84A5ij1RseAvEF2tcLJH3bSIlXGkb9Nthj2WTb09UiFwvXivUMZRiPMcnimmrdyajKV4nLUDkDgAcVXvTja5qYRTwOFgtHAu3nt_p0DjJ22wbrDKM2AhyvVGUgR6rn7TTarQ_VD2Ouft2KOoo3ZuhXb6VAR79CV20ASAsF2uSsCI9K2z9adSEPWmvOF=w2560-h1346?auditContext=prefetch" },
+  "overlays": [
+  ],
+  "pins": [
+    
+  ],
+  "regions": [
+    
+  ]
+}
