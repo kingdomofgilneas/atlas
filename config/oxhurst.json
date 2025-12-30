@@ -2,7 +2,7 @@
   "id": "oxhurst",
   "title": "Barony of Oxhurst",
   "parent": "eastwick",
-  "bounds": [[0, 0], [3973, 4096]],
+  "bounds": [[0, 0], [4096, 3973]],
   "base": { "image": "https://lh3.googleusercontent.com/rd-d/ALs6j_HiSRz-a3NJZQOnZEZTbMyxJfK_cCd2VQ0ffCz7Rh44SMlIj3D334qS4YIGoDl2EMaMU_Rl7BkucG6tDnj9dWIjBPyjKLvCufFwkiheAzA7GFNFSHK-tM0YoQHEe8qxVZSTCQ7kWTqhYprLX-AKhvJZfPRPcTn_A3VyRJGmbItQ0-iPbUeY6rWb9xHlrps4dF2a36fVbJuLlcEJ3RgUHO8Ql1_a219MN8l2qnHbTyWJo1Z4ThrU2dQim9ieMXL73FA7UwuJoMZr-CX-Grb1z8iIvrkz1O6WVZTXP6OJr19EirFZ8giQviGwUOQG_Qdj50bb0u8-NEcARMYL99lG4JDcuYIobNWBTe5_OEXKgk88w2EG7-TDc0GDjKOBvndgihD55F_4LnOPGoH6p6gX-AjTEUc2LfoB4tfKe5UDmeH7GoUcfzerp_40uLhB2kUUBFJZYELtFXHbeU7ZF9ZI6CZ5DVxTGm8jcvhuiaX51kNHefvwj-MTXvnfUWHOqAoEUZE6UL_xIhZFsP6CjV76vgxfmeTgpjHiMWpqKH-pe7AgvUI0Hp3dJQSsBa0EnaklbQbbfZsdO3_aF2tSIZTI1237FrtoihHdrWkq7r6NWZaKrR_uFwpV4UczIelcYMVuMudVfFQ5l3ukkju6YV7pcMOBJ9mNXhV8TQ4ntezF3N84iDJVKvoJU2L0g76XU2Y4wXsoOZA17aRQnDNkSPN9MZr9zmraH-W5uC_zSaW18r4m5Zc5QtlkigJDKhXF8WWRL5iI3cXnwFhxBpdT_3zT8AIqVF1TcUhBJOn55m7cIzQSL26s7PfhsZWI_tO7QQVCmTNf3R3uwEHdke270ALOLQeWzNQyvmrmUW2NxsY65F4i4455dSvy_5a4T1E6cjSaRk7_4In5Da_6Cx64vzT1ayeO2bQFYp5_PyFy5RMcj0stXza2fvLvpHlvtb4EQCiLmeo3WpoTnFjxU4azXJ_pUHh5-KPI1J-aj-guSfYzOhgPl8aEU0NroMGymSBxdQtEdNVCCnrunCw=w2560-h1346?auditContext=prefetch" },
   "overlays": [],
   "pins": [],
