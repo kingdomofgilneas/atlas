@@ -4,8 +4,6 @@
   "bounds": [[0, 0], [1106, 854]],
   "base": { "image": "https://lh3.googleusercontent.com/rd-d/ALs6j_HIWAWvKUZLmhsq_lwjvkBp2tUj3xTLLp-v9Rp8sLhJ-phNtpCj8PtYjjAhi4NwYhcYVJxioYFQNTQDfD2H2ywmN_PhWkulEjYuX66RtbVZZICmF5nJYwbe69KPwyVZe2yUt5oc9WLBD0C8D20yZHWDuvzr0kX6jx4lDwSEJH59BEvvsqyTn_9in4QLzd-DUc5e3WDvg3_TSqojyk-0lVX273PR2nmbFHiNG_v-k4FW-Mxru8CLOVPF2j8C65OW5mOoanHkG--y-T4V7zmZGW2ZqYrwPIv_TFcOC51kySo27UUXl0QlwLkknxOjiCzw6oDIRvXmyRGpGBTYUFEi15A9Om02bTemkLkJPCnRMJm9USeLik-8k422wAclzbwCh9zkSCJ-vubGSXgdyQ3tj1xEn9CVWfiVhPoMhVv00Z5MVDAEVA_-kiQpdRSJX0MH8xJ4Z6w6csJHKH-yHtmZAaiJx26zPX-4ZOjS2e6mHMIQCSdyeOtvxTM_8VCGJB0lLmNjut_lKYR1yvp14Ih-q_7J74UY2NuyEP9qxACskLdVp6iUYbHqvRVcU8UR0OyIc4-ZpovS-y_CeIt1ckFbYof7ZyHBm44fr924k3pc_OsWu1Kqt8oWn1wMZnwGqh_ybxFcN6vX2a9h9RpKRHWKaQKiRQP5oP-iVyDrqxJxEivR8NQoZUhgi3H7GM3neaK7WsihLfUpHlG--rjdm8LJmhRVZ424hqKLtst3p9LFEmLmY1vTyicEz4VhEBp_wiwhoLHEtVZV8dab0BotpQzXpGvLcIvogUYJ0jGeSnpL2uNvkupDUmC8s25WOqXGIdaO5wnmkgJ1KSRJ7UNiXRtU63XjJ-qftJ8yglKAjVmpOsyF7MnPsbw1mq3tNYxq8_nBiEmDaPJei0uKoO-6Be58-ZcRoASquG8rlXGPHG__6KAi4eHughWjoyeZ0drfn8O36jyo5ooW6di6oV1Cyh9tCmRoiuC50vhRlZGvaD_MnAaiq-kz5ArSm9nrRv3dvVC-ig-9L2wGpiSyPUO8iRaeBbuB_iEYlsg5Iu3_qxAz9ut_SwsWJZX9hm-FRG9b994npao8KKuwf8wxy2mk2c1BfN2fVDHtYVoE_roc9XeZN3t5dz_fGVWwugRO0C9SM263Dk4=w1397-h1182?auditContext=forDisplay" },
   "overlays": [
-    { "id": "topo", "label": "Topographic", "image": "assets/overlays/overlay-a.png", "opacity": 1.0, "defaultOn": false },
-    { "id": "blend", "label": "Textured/Blended", "image": "assets/overlays/overlay-a.png", "opacity": 0.25, "defaultOn": false }
   ],
   "pins": [ 
 
