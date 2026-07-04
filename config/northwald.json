@@ -7,7 +7,7 @@
   "overlays": [
   ],
   "pins": [
-    { "id": "solacloch", "pos": [480.99,483.93], "emoji": "🚩", "action": { "type": "goto", "target": "solacloch" } }
+    { "id": "solacloch", "pos": [404.33,103.36], "emoji": "🚩", "action": { "type": "goto", "target": "solacloch" } }
 
    ],
   "regions": [
