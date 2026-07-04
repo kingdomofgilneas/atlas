@@ -1,0 +1,16 @@
+{
+  "id": "northwald",
+  "title": "County of Northwald",
+  "parent": "gilneas",
+  "bounds": [[0, 0], [898, 1197]],
+  "base": { "image": "https://lh3.googleusercontent.com/rd-d/ALs6j_HhtVvYmvhFLUqNCW3Ifj_icpgKFbYg06jqeQTSAuvE0ymSluvChF8WfWfsiAIjAOwGzJqDJoa7HKUbU4GXljVMlV5R4uWjV6l8k5Fg5-LpIrTbNWC3HTUrwOsm8WNe9sbW0fJjCywdw--mKah_w2LzkG1CJHmj6_UfhsYZxa_qRGzUjEo_cLt0_4AJEMCvpIwYAPQsNNzz-M7Gi6BwD2jwvoA0rnuYDUtM45lLBmZnTk_ODrzbqLWOc6l18BRQ8VhS9yPZ1QxLlAZace4vPOe63BhChVem9fNN5vpY_jxVsWY1NH4Jtx7jupZERYSq0Gp5kay7EoAbO0SUeDoLEkqupLNg1oZvzinHVUTxLj171MBwZIQb4f8eAav5HBTUHP_yRFBjnOXdb4pbscyXCpjw4REV-MvDy-dwRWNuCXRQ5Pbyny4bygK7yybzShQ8rVIYEULarO1TzrBqHCjaRemBQvZ9VZx2NSPDO9djheHNpVOdWKpOcYiBOnR-ecLkxcLMuhaNdQ69Qr7J7hX8xLoLnltj7-BI2-maO5ZNy3ZBsBR_eN-2_lsbTKcMmtfsPG8dXSMa2a8Jf40JO0VxUmLJuMgcEKxeQvU_V5kFxlBJTqqVrv6LO_QWUKVtPmAONEq3-8cdvUhQU0lvRaBCbnmhVD3yykQRK82XS_8LvzhVWIJ8BrA6zJM1qwOklumqptitBvAlTZQPd-s3-feFt6IfG0xUHsXCAa7bVt8aYaarDvjqQvAwQa0FwCPziqPhlvOYNtiQFGSGFTXLAlSgOEmd6vKGjyT7TGToRT5kyBuUfhPAUqVZE2g8yCh5NLaiVQc3bSMkytJgrWC58QkfPvmB1ombL0YR222zZIqbrRy7qQ0Eab0L-XLYz-CHqXc0M8xSDPekMeMKWdtTXtuUuL6_bzAT-9JrQ-38B6VlGTdqqjw18FIvcENXoA3ODB_cZG0YxJ3vJk7kbtQ3BWxLwCxINyXlneRnaHJtTS44gXBDXMDwxbdVjfMxbZBaar_QneeUAizP3sQK5EdJZOTxNa5_EdfAjDSU3RjEbIdWRRf6Swj-Pkvdycu6uRaGHnMcjkRqle3yS2jG0xcJh5gLFF3I_H_oLUnFYjIEKwPQJlaATj-w7DAHBMhQo5TsFB4csQM=w2561-h1346?auditContext=prefetch" },
+  "overlays": [
+  ],
+  "pins": [
+    { "id": "solacloch", "pos": [480.99,483.93], "emoji": "🚩", "action": { "type": "goto", "target": "solacloch" } }
+
+   ],
+  "regions": [
+    
+  ]
+}
